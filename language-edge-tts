@@ -3,9 +3,8 @@
   // file for `wrangler dev --remote` (npm run dev), the Vitest Workers pool and
   // `wrangler tail`, so keep it in sync with cloudflare.config.ts.
   "$schema": "./node_modules/wrangler/config-schema.json",
-  "name": "cloudflare-edge-tts",
+  "name": "language-edge-tts",
   "main": "src/index.ts",
   "compatibility_date": "2026-04-10",
-  "account_id": "1f1d1678a2413a54c944b3081bab5c84",
   "workers_dev": true
 }
